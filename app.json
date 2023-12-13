@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.looseendedpal.snackca23d6d3f6454230b7c83bd68e4002eb"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.looseendedpal.snackca23d6d3f6454230b7c83bd68e4002eb"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c66afdf2-3cff-484e-ad8b-5e53458e9b8c"
+      }
     }
   }
 }
